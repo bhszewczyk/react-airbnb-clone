@@ -2,8 +2,26 @@
 	background-color: #fff;
 	padding: 2rem 4rem;
 	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	align-items: center;
 }
 
 .navbar-logo {
 	height: 3.2rem;
+}
+
+@media (max-width: 800px) {
+	.navbar {
+		padding: 1rem 2rem;
+	}
+
+	.navbar-logo {
+		height: 2.4rem;
+	}
+}
+
+@media (max-width: 350px) {
+	.navbar {
+		padding: 0.4rem 0.8rem;
+	}
 }
