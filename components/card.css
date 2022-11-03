@@ -1,0 +1,40 @@
+.card {
+	margin: 2rem;
+	display: inline-block;
+}
+
+.card-cover {
+	position: relative;
+}
+
+.card-cover img {
+	border-radius: 10px;
+}
+
+.tag {
+	position: absolute;
+	top: 1.2rem;
+	left: 1.2rem;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	padding: 0.4rem 0.8rem;
+	border-radius: 4px;
+	font-weight: 400;
+}
+
+.card-info > * {
+	margin-top: 0.8rem;
+	font-weight: 200;
+}
+
+.reviews-location {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	font-weight: 400;
+}
+
+.gray {
+	color: #918e9b;
+	font-weight: 200;
+}
