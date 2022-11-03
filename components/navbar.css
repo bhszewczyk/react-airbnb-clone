@@ -1,0 +1,9 @@
+.navbar {
+	background-color: #fff;
+	padding: 2rem 4rem;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+	height: 3.2rem;
+}
