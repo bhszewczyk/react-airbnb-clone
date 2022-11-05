@@ -1,15 +1,26 @@
 .card {
 	margin: 2rem;
-	display: inline-block;
+	cursor: pointer;
 }
 
 .card-cover {
 	position: relative;
+	transform: scale(1);
+	overflow: hidden;
 }
 
 .card-cover img {
 	border-radius: 10px;
 	height: 20em;
+	max-width: 24rem;
+	object-fit: cover;
+	transition: transform 0.3s linear;
+}
+
+.card-cover img:hover {
+	background-size: cover;
+	transform: scale(1.2);
+	outline: none;
 }
 
 .tag {

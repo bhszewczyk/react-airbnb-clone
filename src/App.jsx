@@ -8,12 +8,14 @@ function App() {
 	const cards = data.map((item) => {
 		return (
 			<Card
+				key={item.id}
 				img={`public/images/${item.coverImg}`}
 				rating={item.stats.rating}
 				reviewCount={item.stats.reviewCount}
 				location={item.location}
 				title={item.title}
 				price={item.price}
+				tag={item.tag}
 			/>
 		);
 	});

@@ -6,7 +6,7 @@ export default function Card(props) {
 		<div className='card'>
 			<div className='card-cover'>
 				<img src={props.img} alt='activity' />
-				<span className='tag'>sold out</span>
+				<span className='tag'>{props.tag}</span>
 			</div>
 			<div className='card-info'>
 				<div className='card-info--stars'>
